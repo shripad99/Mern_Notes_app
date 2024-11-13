@@ -2,7 +2,7 @@ require("dotenv").config()
 
 // const config = require("./config.json");
 const mongoose = require("mongoose");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 
 mongoose.connect(process.env.MONGODB_URI);
 
