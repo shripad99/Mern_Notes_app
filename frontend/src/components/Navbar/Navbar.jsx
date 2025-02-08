@@ -21,7 +21,7 @@ const Navbar = ({userInfo, onSearchNote, handleClearSearch}) => {
 
   const onLogout = () =>{
     localStorage.clear();
-    navigate("/login");
+    navigate("/");
   }
   return (
     <div className='flex items-center justify-between px-6 py-2 drop-shadow bg-yellow-500'>
